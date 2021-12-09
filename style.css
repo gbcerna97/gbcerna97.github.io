@@ -1,0 +1,31 @@
+body {
+  background-color: #000000;
+  background-image: linear-gradient(147deg, #000000 0%, #2c3e50 74%);
+  min-height: 100vh;
+}
+.box-container {
+  background-color: #bd4f6c;
+  background-image: linear-gradient(326deg, #bd4f6c 0%, #d7816a 74%);
+  border-radius: 25px;
+  margin-top: 200px;
+  padding: 20px;
+}
+.col-example {
+  padding: 1rem;
+  color: #fff;
+  text-align: center;
+}
+h3 {
+  color: black;
+  font-family: 'Poppins', sans-serif;
+  font-weight: lighter;
+}
+h5 {
+  color: black;
+  font-family: 'Poppins', sans-serif;
+  font-weight: lighter;
+}
+.form-control:focus {
+  border-color: #FFF;
+  box-shadow: inset 0 1px 1px rgba(128,128,128, 0.075), 0 0 8px rgba(128,128,128, 0.075);
+}
